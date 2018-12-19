@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Autolayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="cCu-oz-1Df">
+                                <rect key="frame" x="0.0" y="313.66666666666669" width="414" height="108.66666666666669"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2XF-Xh-cD3">
+                                        <rect key="frame" x="0.0" y="0.0" width="108.66666666666667" height="108.66666666666667"/>
+                                        <color key="backgroundColor" red="1" green="0.62154506180000002" blue="0.93067554279999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="2XF-Xh-cD3" secondAttribute="height" multiplier="1:1" id="kvh-TR-lVl"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WQu-8B-3fs">
+                                        <rect key="frame" x="152.66666666666666" y="0.0" width="108.66666666666666" height="108.66666666666667"/>
+                                        <color key="backgroundColor" red="0.42031129350000002" green="0.71436216129999996" blue="0.91428746729999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="WQu-8B-3fs" secondAttribute="height" multiplier="1:1" id="pTi-pJ-VNb"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i86-7X-wvR">
+                                        <rect key="frame" x="305.33333333333331" y="0.0" width="108.66666666666669" height="108.66666666666667"/>
+                                        <color key="backgroundColor" red="1" green="0.34096150469999997" blue="0.54316741840000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="i86-7X-wvR" secondAttribute="height" multiplier="1:1" id="d9D-RI-QIy"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cCu-oz-1Df" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9ys-nm-m7t"/>
+                            <constraint firstItem="cCu-oz-1Df" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="l0v-Bb-f1T"/>
+                            <constraint firstItem="cCu-oz-1Df" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tJj-tn-c6z"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-139.13043478260872" y="59.510869565217398"/>
+        </scene>
+    </scenes>
+</document>
